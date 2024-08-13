@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tiny Bookstore</title>
+    <link rel="icon" type="" href="./assets/icons/wolf.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/standard.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/sidebar.css">
+    <link rel="stylesheet" href="./style/hamburger.css">
+    <link rel="stylesheet" href="./style/topbar_mobile.css">
+    <link rel="stylesheet" href="./style/components.css">
+
+    <script src="./scripts/local_storage.js"></script>
+    <script src="./scripts/json.js"></script>
+    <script src="./scripts/html_templates.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="header-top"></div>
+
+    <section id="header" class="header-wrapper "></section>
+
+    <div class="header-bottom"></div>
+
+    <main>
+        <div class="main-complete-wrapper div ">
+            <div id="topbar" class="topbar-categorys-wrapper"></div>
+
+            <section id="sidebar" class="sidebar-wrapper"></section>
+
+            <section class="main-content">
+                <div id="headline"></div>
+                <div id="books"></div>
+            </section>
+        </div>
+    </main>
+
+    <section id="location" class="Find-us-at-wrapper"></section>
+
+    <section id="footer" class="footer-wrapper div-footer "></section>
+</body>
+
+</html>

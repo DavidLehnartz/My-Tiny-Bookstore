@@ -1,0 +1,35 @@
+/* TOPBAR MOBILE */
+
+
+.topbar-categorys-wrapper {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    gap: 4px;
+    flex-grow: 1;
+    top: 8px;
+}
+
+
+.topbar-tabs {
+    display: flex;
+    background-color: #1a1aaa;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    padding: 4px 4px;
+    margin-bottom: 16px;
+}
+
+
+.topbar-span{
+    font-size: 8px;
+}
+
+
+@media(min-width:500px){
+    .topbar-categorys-wrapper{
+        display: none;
+    }
+
+   
+}
